@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token protocols ranked by implied launch value</title>
+<meta name="description" content="A radar for protocol token launches: every protocol that records no token, ranked by what its launch would be worth, with the steps to farm each one.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to the board</a>
+<header class="masthead">
+  <div class="wrap masthead-in">
+    <p class="eyebrow">Token launch radar</p>
+    <h1>Which protocol should you farm next?</h1>
+    <p class="lede">Every protocol in the snapshot that <strong>records no token</strong> — and is not a wrapped, staked or bridged product of one that trades — ranked by the implied value of its launch. The value follows from the snapshot's own figures: TVL, seven-day growth, time running with no token, and chain reach, priced against the protocols whose tokens already trade.</p>
+  </div>
+</header>
+<main id="app" class="wrap" aria-busy="true">
+  <noscript><p class="noscript">This dashboard needs JavaScript: the board, the filters and the detail views are all rendered in your browser from the snapshot data, with no network.</p></noscript>
+</main>
+<footer class="wrap foot">
+  <p><strong>Read it honestly.</strong> “Records no token” means the snapshot's DefiLlama record carries no market cap, no CoinGecko id and no symbol — it is not proof a protocol has no token. Implied values are this radar's own model, not a prediction that a token will launch, or when, or at what price. Farm plans are starting points: check the protocol's own pages before you move funds, and never pay to claim.</p>
+  <p class="foot-src" id="foot-src"></p>
+</footer>
+<script src="../data.js"></script>
+<script src="radar.js"></script>
+</body>
+</html>
