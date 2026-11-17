@@ -142,8 +142,8 @@ Other checks, all passing:
 
 ## Phase 2 needs
 
-- Commit sha: see below (fill in at commit time; the coordinator's report
-  carries the final sha).
+- Commit sha: the final commit of this repo (see the coordinator's
+  submission report, which records the full 40-character sha).
 - README carries the competition badge only; the rank/reward badges need
   the GitHub `{owner}/{repo}`, and the repo About (description, homepage,
   topics `makefun,ai-agents,bounties,trading`) must be set at publish time
